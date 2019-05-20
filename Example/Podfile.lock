@@ -1,0 +1,16 @@
+PODS:
+  - libSnapshot (0.1.0)
+
+DEPENDENCIES:
+  - libSnapshot (from `../`)
+
+EXTERNAL SOURCES:
+  libSnapshot:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libSnapshot: 8cd152799fb1b4dbe2aef6b3d16de4a1aead3f80
+
+PODFILE CHECKSUM: 737b9c59c78754fb21208e9756dad5ee16aa9a37
+
+COCOAPODS: 1.5.3

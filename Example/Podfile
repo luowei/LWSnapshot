@@ -7,7 +7,6 @@ target 'libSnapshot_Example' do
 
   target 'libSnapshot_Tests' do
     inherit! :search_paths
-
-    
   end
+
 end
