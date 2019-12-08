@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'libSnapshot_Example' do
-  pod 'libSnapshot', :path => '../'
+target 'LWSnapshot_Example' do
+  pod 'LWSnapshot', :path => '../'
 
-  target 'libSnapshot_Tests' do
+  target 'LWSnapshot_Tests' do
     inherit! :search_paths
   end
 

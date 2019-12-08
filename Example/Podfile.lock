@@ -1,16 +1,16 @@
 PODS:
-  - libSnapshot (0.1.0)
+  - LWSnapshot (0.1.0)
 
 DEPENDENCIES:
-  - libSnapshot (from `../`)
+  - LWSnapshot (from `../`)
 
 EXTERNAL SOURCES:
-  libSnapshot:
+  LWSnapshot:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libSnapshot: 8cd152799fb1b4dbe2aef6b3d16de4a1aead3f80
+  LWSnapshot: 3ac5e852c1f7cb9b72624233e6c73b334dc882af
 
-PODFILE CHECKSUM: 737b9c59c78754fb21208e9756dad5ee16aa9a37
+PODFILE CHECKSUM: eab7445dd148638020ddd93a339ad22fb97cc716
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

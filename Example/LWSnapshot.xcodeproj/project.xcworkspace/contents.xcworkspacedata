@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:libSnapshot.xcodeproj">
+      location = "self:LWSnapshot.xcodeproj">
    </FileRef>
 </Workspace>
