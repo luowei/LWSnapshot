@@ -36,3 +36,8 @@ Carthage/Build
 #
 
 Pods/
+
+# package产出物
+LWSnapshot-*/
+build/
+product/
