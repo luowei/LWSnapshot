@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWSnapshot'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWSnapshot"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com
