@@ -9,6 +9,34 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+```Objective-C
+//listen screen snapshot
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidTakeScreenshotNotification:) name:UIApplicationUserDidTakeScreenshotNotification object:nil];
+
+- (void)appDidTakeScreenshotNotification:(NSNotification *)notification {
+    [self showSnapshotView];
+}
+
+
+//show snapshot view
+- (void)showSnapshotView {
+    LWSnapshotMaskView *snapshotMaskView = [LWSnapshotMaskView showSnapshotMaskInView:self.view];
+    snapshotMaskView.snapshotFrame = CGRectMake((self.view.frame.size.width-200)/2, (self.view.frame.size.height-200)/2, 200, 200);
+}
+
+
+//long press gesture recongniz
+- (void)longPressGestureAction:(UILongPressGestureRecognizer *)gesture {
+    NSLog(@"--------: recongizer gesture snapshot");
+
+    if(gesture.state == UIGestureRecognizerStateBegan ){
+        [self showSnapshotView];
+    }
+
+}
+```
+
 ## Requirements
 
 ## Installation
