@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWSnapshot.svg?style=flat)](https://cocoapods.org/pods/LWSnapshot)
 [![Platform](https://img.shields.io/cocoapods/p/LWSnapshot.svg?style=flat)](https://cocoapods.org/pods/LWSnapshot)
 
-[English](./README.md) | [中文版](./README_ZH.md)
+[English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 ---
 

@@ -31,8 +31,9 @@ LWSnapshot，一个可自定义选取截取范围的截图组件。
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LWSnapshot/Classes/**/*'
-  
+  s.source_files = 'LWSnapshot/Classes/**/*.{h,m}'
+  s.exclude_files = 'LWSnapshot/Classes/**/*.swift'
+
   # s.resource_bundles = {
   #   'LWSnapshot' => ['LWSnapshot/Assets/*.png']
   # }
