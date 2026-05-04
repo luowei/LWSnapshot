@@ -1,5 +1,12 @@
 # LWSnapshot
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWSnapshot/
+- Report: https://luowei.github.io/LWSnapshot/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWSnapshot/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWSnapshot.svg?style=flat)](https://travis-ci.org/luowei/LWSnapshot)
 [![Version](https://img.shields.io/cocoapods/v/LWSnapshot.svg?style=flat)](https://cocoapods.org/pods/LWSnapshot)
 [![License](https://img.shields.io/cocoapods/l/LWSnapshot.svg?style=flat)](https://cocoapods.org/pods/LWSnapshot)
